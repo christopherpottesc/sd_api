@@ -4,7 +4,7 @@ O projeto foi desenvolvimento para automatizar, centralizar dados e informaçõe
 
 ## Estrutura
 * Servidor - Ruby on Rails
-* Cliente - VueJs + Nuxt + Vuetify
+* Cliente - VueJs + Nuxt + Vuetify - link para o repositório: https://github.com/christopherpottesc/sd_client
 * App - React Native
 
 
