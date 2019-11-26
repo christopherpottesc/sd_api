@@ -12,6 +12,10 @@ module Api
 				total_value_calls = Call.sum(:value);
 				total_value_displacement = Call.sum(:value_displacement)
 
+				citys_values = Call.all.group(:city).count
+				Rails.logger.info citys_values.to_json
+
+
 				# Objeto com os valores
 				response = {
 					customers: customers,
@@ -19,7 +23,8 @@ module Api
 					employees: employees,
 					calls: calls,
 					total_value_calls: total_value_calls,
-					total_value_displacement: total_value_displacement
+					total_value_displacement: total_value_displacement,
+					citys_values: citys_values
 				}
 
 				render json: {status: 'SUCCESS', message:'Informações carregadas', data: response}, status: :ok

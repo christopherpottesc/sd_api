@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 			resources :employees
 			resources :calls
 			resources :dashboard
+			resources :imports
   	end
   end
 end
