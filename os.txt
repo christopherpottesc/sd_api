@@ -1,0 +1,22 @@
+Atividade: 402
+Name: Chris
+Phone: 53981353121
+Valor: 350
+Valor de deslocamento: 50
+Prazo: 04 dias
+Data de abertura: 26/11/2019
+CEP: 98085200
+Cidade: Pelotas
+Rua: Av. João Gomes Nogueira
+Bairro: Areal
+Número: 703
+
+
+  dados = IO.readlines('os.txt').each_with_index.map do |line, line_num| [line_num, line] end
+  
+  dados[0]
+
+  i = dados[0]
+
+  a = i[1].split(': ')
+  a[0] - a[1]

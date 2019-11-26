@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  activity: MyString
+  name: MyString
+  phone: MyString
+  value: MyString
+  value_displacement: MyString
+  deadline: 1
+  cep: 1
+  street: MyString
+  neighborhood: MyString
+  city: MyString
+  number: 1
+  start_date: 2019-11-26 00:21:18
+
+two:
+  activity: MyString
+  name: MyString
+  phone: MyString
+  value: MyString
+  value_displacement: MyString
+  deadline: 1
+  cep: 1
+  street: MyString
+  neighborhood: MyString
+  city: MyString
+  number: 1
+  start_date: 2019-11-26 00:21:18
